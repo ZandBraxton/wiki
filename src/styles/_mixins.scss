@@ -1,0 +1,10 @@
+@mixin DarkBG {
+  background-color: #121212;
+  color: #ecebf3;
+}
+
+@mixin WhiteBG {
+  background-color: #3498db;
+  color: #e8e9ed;
+  text-shadow: 3px 1px 4px #121212;
+}

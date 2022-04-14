@@ -1,0 +1,7 @@
+@import "./mixins";
+
+nav {
+  @include DarkBG();
+  height: 100px;
+  width: 100%;
+}
