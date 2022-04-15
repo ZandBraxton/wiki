@@ -1,10 +1,88 @@
 @import "./mixins";
 
 .page-container {
-  width: 100vw;
+  width: auto;
   height: auto;
   display: flex;
   flex-flow: row;
+  justify-content: center;
+}
+
+.main-container {
+  @include PageBG();
+  margin-top: 50px;
+  width: 75vw;
+  height: fit-content;
+  min-height: max-content;
+}
+
+.hero {
+  display: flex;
+  flex-flow: column;
+  margin: 0 30px 50px 30px;
+  // width: 100%;
+  .title {
+    font-size: 4rem;
+    padding: 30px 0;
+    font-weight: 200;
+    width: fit-content;
+  }
+
+  .top-quote {
+    font-weight: 300;
+    font-style: italic;
+    height: auto;
+    width: 60%;
+    line-height: 1.5rem;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.content-container {
+  width: auto;
+  margin-left: 30px;
+}
+
+.bio {
+  margin-bottom: 100px;
+  p {
+    width: 80%;
+    margin-bottom: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+.article {
+  margin-bottom: 300px;
+  h2 {
+    font-size: 2rem;
+  }
+
+  hr {
+    width: 90%;
+    margin: 5px auto 0 0;
+    opacity: 0.4;
+  }
+
+  p {
+    margin-top: 1rem;
+    i {
+      font-style: italic;
+    }
+  }
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 .profile-bar {
@@ -20,7 +98,7 @@
     padding: 10px 0px;
     height: 20px;
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .section {
@@ -34,11 +112,12 @@
   .piece {
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-template-rows: auto;
-    // background-color: blue;
-    min-height: 40px;
-    padding: 0px 6px;
+    gap: 1rem;
+    height: auto;
+    max-height: auto;
+    padding: 10px 6px;
     border: 1px solid rgba(255, 255, 255, 0.205);
 
     p {
@@ -49,12 +128,18 @@
       font-size: 0.8rem;
     }
 
-    :nth-child(1) {
+    p:nth-child(1) {
       font-weight: 600;
     }
-  }
 
-  hr {
-    width: 100%;
+    div {
+      display: flex;
+      flex-flow: column;
+      line-height: 1rem;
+      height: auto;
+      width: 100%;
+      align-self: center;
+      font-size: 0.8rem;
+    }
   }
 }

@@ -3,6 +3,11 @@
   color: #ecebf3;
 }
 
+@mixin PageBG {
+  background-color: #061723;
+  color: #e8e9ed;
+}
+
 @mixin WhiteBG {
   background-color: #3498db;
   color: #e8e9ed;

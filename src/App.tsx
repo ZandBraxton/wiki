@@ -22,18 +22,11 @@ const App: React.FC = () => {
               content="width=device-width, initial-scale=1"
             />
           </Helmet>
-          {/* <Nav></Nav> */}
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="wiki/:id" element={<Itempage />} />
         </Routes>
-
-        {/* <div className="card-container">
-          {wikiData.map((item) => {
-            return <Card item={item} key={item.name} />;
-          })}
-        </div> */}
       </div>
     </Router>
   );
