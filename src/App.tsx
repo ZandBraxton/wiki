@@ -21,6 +21,10 @@ const App: React.FC = () => {
               name="viewport"
               content="width=device-width, initial-scale=1"
             />
+            <meta
+              name="Gang Wiki"
+              content="Personal wiki for the hgg server"
+            ></meta>
           </Helmet>
         </header>
         <Routes>
