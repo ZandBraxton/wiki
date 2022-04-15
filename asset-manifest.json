@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/wiki/static/css/main.cfad1ce7.css",
-    "main.js": "/wiki/static/js/main.692468fd.js",
+    "main.js": "/wiki/static/js/main.bdb6399e.js",
     "static/media/Tron.png": "/wiki/static/media/Tron.c6bb1630e33e2f7ccdf1.png",
     "static/media/m3d.png": "/wiki/static/media/m3d.8c5c29bfbb581ac3b6d6.png",
     "static/media/Disco.png": "/wiki/static/media/Disco.620389cf490d208c9971.png",
     "static/media/Seraph.png": "/wiki/static/media/Seraph.38d06f433cfeaab8c3dd.png",
     "index.html": "/wiki/index.html",
     "main.cfad1ce7.css.map": "/wiki/static/css/main.cfad1ce7.css.map",
-    "main.692468fd.js.map": "/wiki/static/js/main.692468fd.js.map"
+    "main.bdb6399e.js.map": "/wiki/static/js/main.bdb6399e.js.map"
   },
   "entrypoints": [
     "static/css/main.cfad1ce7.css",
-    "static/js/main.692468fd.js"
+    "static/js/main.bdb6399e.js"
   ]
 }
