@@ -24,8 +24,8 @@ const App: React.FC = () => {
           </Helmet>
         </header>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="wiki/:id" element={<Itempage />} />
+          <Route path="/wiki" element={<Home />} />
+          <Route path="/wiki/:id" element={<Itempage />} />
         </Routes>
       </div>
     </Router>
