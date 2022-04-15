@@ -16,9 +16,19 @@ body {
   @include DarkBG();
   display: flex;
   flex-flow: row;
-
   width: auto;
   height: auto;
   padding: 50px;
   gap: 2rem;
+}
+
+@include Phone() {
+  .card-container {
+    margin: auto;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding-top: 20px;
+  }
 }

@@ -13,3 +13,9 @@
   color: #e8e9ed;
   text-shadow: 3px 1px 4px #121212;
 }
+
+@mixin Phone() {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
